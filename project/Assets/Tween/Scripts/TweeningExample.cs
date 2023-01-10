@@ -48,6 +48,66 @@ public class TweeningExample : MonoBehaviour
         }
     }
 
+    void testUpdate()
+    {
+        elapsedTime += Time.deltaTime;
+        float t = elapsedTime / duration;
+        if (loopType == LoopType.PingPong)
+        {
+            t = Mathf.PingPong(t, 1f);
+        }
+        else
+        {
+            t = t % 1f;
+        }
+
+        positionValue = positionCurve.Evaluate(t);
+        rotationValue = rotationCurve.Evaluate(t);
+
+        if (loopType == LoopType.Incremental)
+        {
+            t = (elapsedTime % duration) / duration;
+        }
+
+        if (loopType == LoopType.Incremental)
+        {
+            startPosition = space == Space.World ? transform.position : transform.localPosition;
+            endPosition = startPosition + endPosition;
+            startRotation = space == Space.World ? transform.eulerAngles : transform.localEulerAngles;
+            endRotation = startRotation + endRotation;
+        }
+
+        if (space == Space.World)
+        {
+            transform.position = Vector3.Lerp(startPosition, endPosition, positionValue);
+            transform.eulerAngles = Vector3.Lerp(startRotation, endRotation, rotationValue);
+        }
+        else
+        {
+            transform.localPosition = Vector3.Lerp(startPosition, endPosition, positionValue);
+            transform.localEulerAngles = Vector3.Lerp(startRotation, endRotation, rotationValue);
+        }
+
+        if (elapsedTime >= duration)
+        {
+            if (loop)
+            {
+                switch (loopType)
+                {
+                    case LoopType.Restart:
+                        elapsedTime = 0f;
+                        break;
+                    case LoopType.Incremental:
+                        elapsedTime = elapsedTime % duration;
+                        break;
+                }
+            }
+            else
+            {
+                isPlaying = false;
+            }
+        }
+    }
     private void UpdateElapsedTime()
     {
         elapsedTime += Time.deltaTime;
