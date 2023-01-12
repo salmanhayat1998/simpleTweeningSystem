@@ -7,11 +7,7 @@
     },
     {
       "FullName": "Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2023-01-10T09:22:59.1793399Z"
-    },
-    {
-      "FullName": "mscorlib, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-08-04T20:22:40Z"
+      "LastWriteTime": "2023-01-10T11:03:40.1021311Z"
     },
     {
       "FullName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
@@ -23,15 +19,19 @@
     },
     {
       "FullName": "Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2023-01-10T09:22:58.6855286Z"
+      "LastWriteTime": "2023-01-10T11:03:38.6795557Z"
     },
     {
       "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2023-01-10T09:22:56.5948513Z"
+      "LastWriteTime": "2023-01-10T11:03:38.2905505Z"
     },
     {
       "FullName": "Unity.Burst.Unsafe, Version=4.0.5.0, Culture=neutral, PublicKeyToken=null",
       "LastWriteTime": "2022-06-08T12:19:43Z"
+    },
+    {
+      "FullName": "mscorlib, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2022-08-04T20:22:40Z"
     },
     {
       "FullName": "UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -39,7 +39,7 @@
     },
     {
       "FullName": "Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2023-01-10T10:46:06.45518Z"
+      "LastWriteTime": "2023-01-12T09:53:20.6057699Z"
     }
   ],
   "Functions": [
@@ -55,8 +55,7 @@
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     },
     {
@@ -67,11 +66,11 @@
       "AssemblyDependencyIndices": [
         0,
         1,
-        3,
-        6,
-        4,
         5,
-        7
+        2,
+        3,
+        4,
+        6
       ]
     },
     {
@@ -82,11 +81,11 @@
       "AssemblyDependencyIndices": [
         0,
         1,
-        4,
-        7,
+        2,
         3,
-        5,
-        6
+        6,
+        4,
+        5
       ]
     },
     {
@@ -97,11 +96,12 @@
       "AssemblyDependencyIndices": [
         0,
         1,
-        5,
-        3,
+        7,
         4,
-        6,
-        7
+        2,
+        3,
+        5,
+        6
       ]
     },
     {
@@ -112,11 +112,11 @@
       "AssemblyDependencyIndices": [
         0,
         1,
-        6,
+        2,
+        5,
         3,
         4,
-        5,
-        7
+        6
       ]
     },
     {
@@ -127,11 +127,11 @@
       "AssemblyDependencyIndices": [
         0,
         1,
+        2,
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     },
     {
@@ -142,11 +142,11 @@
       "AssemblyDependencyIndices": [
         0,
         1,
+        2,
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     },
     {
@@ -155,9 +155,9 @@
       "ModuleHash": "65d2b149fc77e9cd178ea0212afd5d3c",
       "LinkName": "CDCA4A5193BE5947",
       "AssemblyDependencyIndices": [
-        6,
-        4,
-        3
+        5,
+        3,
+        2
       ]
     },
     {
@@ -166,9 +166,9 @@
       "ModuleHash": "d615eeb212d609f693602c7f620130dd",
       "LinkName": "801E9A000BB37B05",
       "AssemblyDependencyIndices": [
-        6,
-        4,
-        3
+        5,
+        3,
+        2
       ]
     },
     {
@@ -178,11 +178,11 @@
       "LinkName": "8CC3C64CA4A3FEDE",
       "AssemblyDependencyIndices": [
         1,
-        4,
         3,
-        6,
-        0,
+        2,
         5,
+        0,
+        4,
         8
       ]
     },
@@ -194,9 +194,9 @@
       "AssemblyDependencyIndices": [
         1,
         8,
-        4,
         3,
-        6,
+        2,
+        5,
         0
       ]
     },
@@ -208,11 +208,11 @@
       "AssemblyDependencyIndices": [
         0,
         1,
+        2,
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     },
     {
@@ -223,11 +223,11 @@
       "AssemblyDependencyIndices": [
         0,
         1,
+        2,
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     },
     {
@@ -238,11 +238,11 @@
       "AssemblyDependencyIndices": [
         0,
         1,
+        2,
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     },
     {
@@ -253,11 +253,11 @@
       "AssemblyDependencyIndices": [
         0,
         1,
+        2,
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     },
     {
@@ -267,13 +267,13 @@
       "LinkName": "806B2D5E79A7443E",
       "AssemblyDependencyIndices": [
         1,
-        4,
         3,
-        6,
+        2,
         5,
+        4,
         0,
         8,
-        7
+        6
       ]
     },
     {
@@ -283,9 +283,9 @@
       "LinkName": "073EC3FA933E2E4B",
       "AssemblyDependencyIndices": [
         1,
-        4,
         3,
-        6,
+        2,
+        5,
         0,
         8
       ]
@@ -297,48 +297,83 @@
       "LinkName": "64D279804013162E",
       "AssemblyDependencyIndices": [
         1,
-        4,
         3,
+        2,
+        4,
         5,
-        6,
         0,
         8
       ]
     },
     {
-      "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[AnimationCurveTCalculation, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(AnimationCurveTCalculation&, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
-      "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "a9c23904b5fced90ec0483ab15ff159e",
-      "LinkName": "DD831ED5DC6A20ED",
-      "AssemblyDependencyIndices": [
-        0,
-        9,
-        3,
-        4
-      ]
-    },
-    {
       "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[testJob, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(testJob&, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "2955b26243389460567cfaa75273a063",
+      "ModuleHash": "0f13af97e5c8bb51ab49c5d5c0c96dd6",
       "LinkName": "2DEC997C8CB68C72",
       "AssemblyDependencyIndices": [
         0,
         9,
-        3,
-        4
+        2,
+        3
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[AnimationCurveTCalculation, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(AnimationCurveTCalculation&, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 15221144590354301703,
+      "ModuleHash": "fe298233085740b477f394ed1edfb34b",
+      "LinkName": "DD831ED5DC6A20ED",
+      "AssemblyDependencyIndices": [
+        0,
+        9,
+        2,
+        3
       ]
     },
     {
       "FullName": "UnityEngine.Jobs.IJobParallelForTransformExtensions+TransformParallelForLoopStruct`1[[MovementJob, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(MovementJob&, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "bc32803b096189e0a19a28caf0c94d7a",
+      "ModuleHash": "44e818aba5f56a9d824d81441488c6a6",
       "LinkName": "FDC2D056BD77B945",
       "AssemblyDependencyIndices": [
         0,
         9,
-        3,
-        4
+        2,
+        3
+      ]
+    },
+    {
+      "FullName": "UnityEngine.Jobs.IJobParallelForTransformExtensions+TransformParallelForLoopStruct`1[[BoidController+TransformJob, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(BoidController+TransformJob&, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 15221144590354301703,
+      "ModuleHash": "6b0066031a5eb4cb393f4865c87f2189",
+      "LinkName": "AE00DE9E16447ACA",
+      "AssemblyDependencyIndices": [
+        0,
+        9,
+        2,
+        3
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[BoidController+ResetCastStatesJob, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(BoidController+ResetCastStatesJob&, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 15221144590354301703,
+      "ModuleHash": "bd2070f057ceafdb5307f807ebdc6e64",
+      "LinkName": "43FA56A2C73A81E7",
+      "AssemblyDependencyIndices": [
+        0,
+        9,
+        2,
+        3
+      ]
+    },
+    {
+      "FullName": "UnityEngine.Jobs.IJobParallelForTransformExtensions+TransformParallelForLoopStruct`1[[BoidController+UpdateArrayJob, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(BoidController+UpdateArrayJob&, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 15221144590354301703,
+      "ModuleHash": "60596b72b9f27f688a034bddea37060c",
+      "LinkName": "1A8619C1C6F7EAF3",
+      "AssemblyDependencyIndices": [
+        0,
+        9,
+        2
       ]
     }
   ]

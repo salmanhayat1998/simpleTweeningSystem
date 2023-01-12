@@ -47,7 +47,7 @@ public class TweeningExample : MonoBehaviour
             CheckLoopCompletion();
         }
     }
-
+    
     void testUpdate()
     {
         elapsedTime += Time.deltaTime;
