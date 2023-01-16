@@ -10,13 +10,13 @@ public class TweenObject:MonoBehaviour
     public float duration = 1f;
     public float playDelay;
     public Vector3 endPosition;
-    public Quaternion endRotation;
+    public Vector3 endRotation;
     public bool loop;
     public LoopType loopType;
     public Space space;
     [HideInInspector] public Vector3 startPosition;
-    [HideInInspector] public Quaternion startRotation;
-    [HideInInspector] public float elapsedTime;
+    [HideInInspector] public Vector3 startRotation;
+      public float elapsedTime;
     [HideInInspector] public bool isPlaying;
 
     public void Play()

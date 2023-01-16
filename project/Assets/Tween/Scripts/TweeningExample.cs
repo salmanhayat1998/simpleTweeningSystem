@@ -21,7 +21,7 @@ public class TweeningExample : MonoBehaviour
     public Space space;
     private Vector3 startPosition;
     private Vector3 startRotation;
-    private float elapsedTime;
+    [SerializeField]private float elapsedTime;
     private bool isPlaying;
 
     private void Start()
