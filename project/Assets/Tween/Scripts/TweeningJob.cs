@@ -70,8 +70,8 @@ public class TweeningJob : MonoBehaviour
         {
             var obj = tweenObjects[i];
             tweenStruct tweenStruct = new tweenStruct();
-            tweenStruct.positionCurve = obj.positionCurve;
-            tweenStruct.positionCurve = obj.positionCurve;
+          //  tweenStruct.positionCurve = obj.positionCurve;
+         //   tweenStruct.positionCurve = obj.positionCurve;
             tweenStruct.startPosition = obj.startPosition;
            // tweenStruct.startRotation = obj.startRotation;
             tweenStruct.autoPlay = obj.autoPlay;
@@ -154,8 +154,8 @@ public class TweeningJob : MonoBehaviour
 
 
 
-            positionValue = myTweenObj.positionCurve.Evaluate(t);
-            rotationValue = myTweenObj.rotationCurve.Evaluate(t);
+          //  positionValue = myTweenObj.positionCurve.Evaluate(t);
+            //rotationValue = myTweenObj.rotationCurve.Evaluate(t);
 
 
 

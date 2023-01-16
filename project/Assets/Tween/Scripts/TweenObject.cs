@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class TweenObject:MonoBehaviour
 {
-    public AnimationCurve positionCurve = AnimationCurve.Linear(0f, 0f, 1f, 1f);
-    public AnimationCurve rotationCurve = AnimationCurve.Linear(0f, 0f, 1f, 1f);
+
     public bool autoPlay;
     public float duration = 1f;
     public float playDelay;

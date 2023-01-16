@@ -28,7 +28,7 @@ public class TweeningExample : MonoBehaviour
     {
         startPosition = space == Space.World ? transform.position : transform.localPosition;
         startRotation = space == Space.World ? transform.eulerAngles : transform.localEulerAngles;
-
+        endPosition = startPosition + endPosition;
         if (autoPlay)
         {
             Invoke("Play", playDelay);
@@ -61,8 +61,10 @@ public class TweeningExample : MonoBehaviour
             t = t % 1f;
         }
 
-        positionValue = positionCurve.Evaluate(t);
-        rotationValue = rotationCurve.Evaluate(t);
+        //positionValue = positionCurve.Evaluate(t);
+        //rotationValue = rotationCurve.Evaluate(t);  
+        positionValue =t;
+        rotationValue = t;
 
         if (loopType == LoopType.Incremental)
         {
